@@ -1,6 +1,9 @@
-.intro {
-  height: 93vh;
-  max-width: 1400px;
+* {
+  box-sizing: border-box;
+}
+
+#intro {
+  height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.427), rgba(0, 0, 0, 0.55)), url(/img/caro/File_27.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -11,8 +14,16 @@
   margin: auto;
 }
 
-.addbox {
-  border: solid 0.4px grey;
+.activities,
+.hours {
+  min-height: 100vh;
+}
+
+@media (min-width: 992px) {
+  .videos,
+.photos {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

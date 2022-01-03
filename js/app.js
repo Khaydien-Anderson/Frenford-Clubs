@@ -13,3 +13,15 @@
       map: map,
     });
   }
+
+
+
+// CHANGE IMAGES ON CAROUSEL
+
+
+
+const newPic = `<div class="carousel-item">
+<img class="d-block w-100" src="/img/caro/File_${pic++}.jpg" alt="${pic++} slide">
+</div>`;
+
+
